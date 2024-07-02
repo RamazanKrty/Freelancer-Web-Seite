@@ -64,6 +64,8 @@
                 border: 1px solid $medium-color;
                 border-radius: 5px;
                 padding: .5rem;
+                background-color: $light-color;
+                font-style: italic;
             }
 
             img {
@@ -71,6 +73,14 @@
                 height: 50px;
                 border-radius: 50%;
                 padding-right: .5rem;
+            }
+
+            .owl-nav {
+
+                .owl-prev, .owl-next {
+                    font-size: 2.5rem;
+                    padding: 0 1rem !important;
+                }
             }
         }
     }

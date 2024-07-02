@@ -12,6 +12,23 @@
                 color: $primary-color;
                 padding-bottom: 0.5rem;
             }
+
+            div {
+                padding: 1rem;
+
+                &:hover {
+                box-shadow: 15px 15px 15px $medium-color;
+                cursor: pointer;
+
+                    i {
+                        color: $dark-color;
+                    }
+
+                    h3 {
+                        color: $primary-color;
+                    }
+                }
+            }
         }
     }
 
@@ -29,6 +46,7 @@
                 &.number {
                     font-size: 2rem;
                     font-weight: bold;
+                    color: $primary-color;
                 }
             }
 
